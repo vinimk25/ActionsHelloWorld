@@ -13,10 +13,10 @@ jobs:
   hello:
     runs-on:  unbuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: hello world
-        run: echo "Hello World!"
-        shell: bash
+    - uses: actions/checkout@v2
+    - name: hello world
+      run: echo "Hello World!"
+      shell: bash
   goodbye:
     runs-on: ubuntu-latest
     steps:
